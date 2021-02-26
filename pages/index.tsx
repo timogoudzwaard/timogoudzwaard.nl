@@ -36,7 +36,7 @@ export default function Home() {
           ben voor de kwaliteit van de huidige Angular stack.
         </p>
 
-        <div className="flex justify-center mt-12">
+        <div className="flex justify-center mt-8">
           <a
             href={linkedIn}
             target="_blank"
