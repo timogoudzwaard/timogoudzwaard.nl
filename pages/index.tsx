@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../components/header';
-import { email, linkedIn } from '../config/values';
+import { linkedIn } from '../config/values';
 
 export default function Home() {
   return (

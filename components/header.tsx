@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { email } from '../config/values';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { github } from '../config/values';
 
 const Header = () => {
   return (
@@ -10,10 +9,10 @@ const Header = () => {
         <nav className="p-6 md:p-8">
           <ol className="list-none flex items-center justify-center space-x-12">
             <li className="border p-4 rounded-full">
-              <a href={email}>
+              <a href={github} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
                   className="w-6 fill-current text-gray-800 hover:text-gray-500 transform hover:scale-110 transition"
-                  icon={faEnvelope}
+                  icon={faGithub}
                 />
               </a>
             </li>
