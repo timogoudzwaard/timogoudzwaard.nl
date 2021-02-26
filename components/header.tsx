@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className="container mx-auto">
-        <nav className="p-8">
+        <nav className="p-6 md:p-8">
           <ol className="list-none flex items-center justify-center space-x-12">
             <li className="border p-4 rounded-full">
               <a href={email}>

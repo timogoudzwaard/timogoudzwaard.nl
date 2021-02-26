@@ -13,7 +13,7 @@ export default function Home() {
 
       <Header />
 
-      <main className="container p-4 mt-12 mx-auto">
+      <main className="container p-4 mt-12 mb-6 mx-auto">
         <div className="flex justify-center">
           <Image
             src="/memoji.png"
@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <h2 className="text-2xl font-bold mt-4 text-center">Hi, ik ben Timo</h2>
 
-        <h1 className="text-5xl max-w-2xl text-center mx-auto mt-12 font-bold">
+        <h1 className="text-4xl md:text-5xl max-w-2xl text-center mx-auto mt-12 font-bold">
           Frontend Engineer met expertise in React en Angular
         </h1>
         <p className="text-center text-xl mt-8 max-w-2xl mx-auto">
