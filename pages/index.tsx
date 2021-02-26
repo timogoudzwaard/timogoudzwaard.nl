@@ -32,8 +32,8 @@ export default function Home() {
           Frontend Engineer met expertise in React en Angular
         </h1>
         <p className="text-center text-xl mt-8 max-w-2xl mx-auto">
-          Momenteel ben ik lead ontwikkelaar bij Unive, waarin ik
-          verantwoordelijk ben voor de kwaliteit van de huidige Angular stack.
+          Momenteel ben ik lead ontwikkelaar bij Univé, waar ik verantwoordelijk
+          ben voor de kwaliteit van de huidige Angular stack.
         </p>
 
         <div className="flex justify-center mt-12">
