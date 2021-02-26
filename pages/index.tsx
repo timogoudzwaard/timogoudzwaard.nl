@@ -13,7 +13,7 @@ export default function Home() {
 
       <Header />
 
-      <main className="container mt-12 mx-auto">
+      <main className="container p-4 mt-12 mx-auto">
         <div className="flex justify-center">
           <Image
             src="/memoji.png"
