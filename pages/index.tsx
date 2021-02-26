@@ -9,6 +9,10 @@ export default function Home() {
       <Head>
         <title>Timo Goudzwaard | Frontend Engineer</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Timo Goudzwaard, Frontend Engineer with expertise in React and Angular"
+        />
       </Head>
 
       <Header />
@@ -36,6 +40,7 @@ export default function Home() {
           <a
             href={linkedIn}
             target="_blank"
+            rel="noreferrer"
             className="rounded-2xl bg-indigo-500 hover:bg-indigo-700 transition text-white py-4 px-6 text-xl shadow-md"
           >
             Neem contact met me op

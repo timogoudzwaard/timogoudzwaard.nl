@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { email, linkedIn } from '../config/values';
+import { email } from '../config/values';
 
 const Header = () => {
   return (
@@ -20,6 +20,7 @@ const Header = () => {
             <li className="border p-4 rounded-full">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/timo-goudzwaard/"
               >
                 <FontAwesomeIcon
