@@ -5,9 +5,9 @@ import { linkedIn } from '../config/values';
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-slate-50 min-h-screen">
       <Head>
-        <title>Timo Goudzwaard | Frontend Engineer</title>
+        <title>Aurum Gladio / Timo Goudzwaard | Frontend Engineer</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
@@ -22,18 +22,57 @@ export default function Home() {
           <Image
             src="/memoji.png"
             alt="Picture of the author"
-            width={127}
-            height={166}
+            width={85}
+            height={111}
           />
         </div>
-        <h2 className="text-2xl font-bold mt-4 text-center">Hi, ik ben Timo</h2>
+        <h2 className="text-2xl font-bold mt-4 text-center">
+          Hi, ik ben Timo. <br />
+          Frontend Engineer met expertise in Angular en React
+        </h2>
 
-        <h1 className="text-4xl md:text-5xl max-w-2xl text-center mx-auto mt-12 font-bold">
-          Frontend Engineer met expertise in React en Angular
-        </h1>
-        <p className="text-center text-xl mt-8 max-w-2xl mx-auto">
-          Momenteel ben ik lead ontwikkelaar bij Univé, waar ik verantwoordelijk
-          ben voor de kwaliteit van de huidige Angular stack.
+        <h2 className="text-2xl font-bold mt-8 text-center text-indigo-500">
+          Huidige opdracht: InShared
+        </h2>
+
+        <p className="text-center text-xl mt-2 max-w-2xl mx-auto">
+          Momenteel werk ik aan een uitdagende opdracht bij InShared. Hier
+          ondersteun ik een multidisciplinair team bij het ontwikkelen en
+          implementeren van een salesfunnel. Mijn focus ligt op het bouwen van
+          de Frontend in Angular, waarbij ik zowel technische expertise als
+          samenwerking centraal stel.
+        </p>
+
+        <p className="text-center text-xl mt-4 max-w-2xl mx-auto">
+          In deze rol ben ik verantwoordelijk voor de zelfstandige ontwikkeling
+          van de Frontend. Hierbij maak ik optimaal gebruik van de kennis en
+          ervaring die ik heb opgedaan tijdens eerdere projecten en opdrachten.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 text-center text-indigo-500">
+          Waarom kiezen voor mij?
+        </h2>
+
+        <p className="text-center text-xl mt-2 max-w-2xl mx-auto">
+          Met een sterke passie voor Frontend-ontwikkeling en een liefde voor
+          het bouwen van gebruiksvriendelijke interfaces, breng ik enthousiasme
+          en toewijding naar elk project. Mijn ervaring met frameworks zoals
+          Angular en React stelt me in staat om robuuste en schaalbare
+          oplossingen te leveren die aansluiten bij de behoeften van de
+          gebruiker.
+        </p>
+
+        <p className="text-center text-xl mt-4 max-w-2xl mx-auto">
+          Ik ben flexibel en leer snel nieuwe technieken en tools. Dit betekent
+          dat ik mij moeiteloos aanpas aan nieuwe technologieën en werkwijzen,
+          waardoor ik effectief kan bijdragen aan innovatieve projecten in een
+          continu veranderende digitale wereld.
+        </p>
+
+        <p className="text-center text-xl mt-4 max-w-2xl mx-auto">
+          Of het nu gaat om het ontwikkelen van een compleet nieuwe Frontend of
+          het optimaliseren van bestaande systemen, ik zorg ervoor dat
+          gebruiksvriendelijkheid en een aantrekkelijk design hand in hand gaan.
         </p>
 
         <div className="flex justify-center mt-8">
@@ -43,7 +82,7 @@ export default function Home() {
             rel="noreferrer"
             className="rounded-2xl bg-indigo-500 hover:bg-indigo-700 transition text-white py-4 px-6 text-xl shadow-md"
           >
-            Neem contact met me op
+            Neem contact op
           </a>
         </div>
       </main>
