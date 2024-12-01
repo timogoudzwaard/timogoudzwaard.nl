@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { github } from '../config/values';
+import { github, linkedIn } from '../config/values';
 
 const Header = () => {
   return (
@@ -18,11 +18,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/timo-goudzwaard/"
-              >
+              <a target="_blank" rel="noreferrer" href={linkedIn}>
                 <FontAwesomeIcon
                   className="fill-current text-blue-600 hover:text-blue-800 transform hover:scale-110 transition"
                   icon={faLinkedin}
